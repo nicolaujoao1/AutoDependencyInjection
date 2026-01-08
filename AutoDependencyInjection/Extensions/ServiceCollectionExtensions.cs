@@ -19,6 +19,8 @@ public static class ServiceCollectionExtensions
    this IServiceCollection services,
    params Assembly[] assemblies)
     {
+
+
         if (assemblies == null || assemblies.Length == 0)
         {
             assemblies = new[] { Assembly.GetCallingAssembly() };
