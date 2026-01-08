@@ -1,7 +1,5 @@
 # Auto_DependencyInjection
 
-[![NuGet](https://img.shields.io/nuget/v/Auto_DependencyInjection.svg)](https://www.nuget.org/packages/Auto_DependencyInjection)
-
 A lightweight library for **attribute-based automatic Dependency Injection** in .NET, eliminating boilerplate and centralizing DI configuration within the classes themselves.
 
 ---
