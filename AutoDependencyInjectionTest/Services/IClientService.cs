@@ -1,7 +1,10 @@
-﻿namespace AutoDependencyInjectionTest.Services
+﻿namespace AutoDependencyInjectionTest.Services;
+
+public interface IClientService
 {
-    public interface IClientService
-    {
-        Task<List<string>> GetAllAsync();
-    }
+    Task<List<string>> GetAllAsync();
+}
+public interface IAddressService
+{
+    Task<List<string>> GetAllAsync();
 }
