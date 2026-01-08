@@ -16,4 +16,17 @@ namespace AutoDependencyInjectionTest.Services
             });
         }
     }
+    [Scoped]
+    public class AddressService : IAddressService
+    {
+        public async Task<List<string>> GetAllAsync()
+        {
+            return await Task.FromResult(new List<string>
+            {
+                "Luanda",
+                "Benguela",
+                "Uige"
+            });
+        }
+    }
 }

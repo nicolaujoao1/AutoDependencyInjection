@@ -6,7 +6,7 @@ namespace AutoDependencyInjection.Attributes;
 /// </summary>
 
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
-public sealed class InjectAttribute : Attribute
+public class InjectAttribute : Attribute
 {
     /// <summary>
     /// The lifetime of the service to be registered.
