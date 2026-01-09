@@ -18,13 +18,13 @@ A lightweight library for **attribute-based automatic Dependency Injection** in 
 Via NuGet:
 
 ```bash
-dotnet add package Auto_DependencyInjection
+dotnet add package Auto_DependencyInjection --version 1.0.0
 ```
 
 Or via Package Manager Console:
 
 ```powershell
-Install-Package Auto_DependencyInjection
+Install-Package Auto_DependencyInjection --version 1.0.0
 ```
 
 ---
