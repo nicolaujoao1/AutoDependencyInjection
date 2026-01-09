@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace AutoDependencyInjection.Logging;
+namespace Auto_DependencyInjection.Logging;
 
 internal sealed class AutoDILogger : IAutoDILogger
 {

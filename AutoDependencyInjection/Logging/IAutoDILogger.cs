@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoDependencyInjection.Logging;
+namespace Auto_DependencyInjection.Logging;
 
 public interface IAutoDILogger
 {

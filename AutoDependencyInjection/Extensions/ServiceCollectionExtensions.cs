@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using AutoDependencyInjection.Attributes;
+using Auto_DependencyInjection.Attributes;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoDependencyInjection.Extensions;
+namespace Auto_DependencyInjection.Extensions;
 
 /// <summary>
 /// Extension methods for IServiceCollection

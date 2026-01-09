@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoDependencyInjection.Internal;
+namespace Auto_DependencyInjection.Internal;
 
 internal static class ServiceCollectionHelper
 {

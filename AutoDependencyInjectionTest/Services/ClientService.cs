@@ -1,5 +1,4 @@
-﻿
-using AutoDependencyInjection.Attributes;
+﻿using Auto_DependencyInjection.Attributes;
 
 namespace AutoDependencyInjectionTest.Services
 {
@@ -16,7 +15,7 @@ namespace AutoDependencyInjectionTest.Services
             });
         }
     }
-    [Scoped]
+    [Singleton]
     public class AddressService : IAddressService
     {
         public async Task<List<string>> GetAllAsync()
@@ -29,17 +28,17 @@ namespace AutoDependencyInjectionTest.Services
             });
         }
     }
-    [Scoped]
-    public class HardAddressService : IAddressService
-    {
-        public async Task<List<string>> GetAllAsync()
-        {
-            return await Task.FromResult(new List<string>
-            {
-                "Luanda",
-                "Benguela",
-                "Uige"
-            });
-        }
-    }
+    //[Scoped]
+    //public class HardAddressService : IAddressService
+    //{
+    //    public async Task<List<string>> GetAllAsync()
+    //    {
+    //        return await Task.FromResult(new List<string>
+    //        {
+    //            "Luanda",
+    //            "Benguela",
+    //            "Uige"
+    //        });
+    //    }
+    //}
 }

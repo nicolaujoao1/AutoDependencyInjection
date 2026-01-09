@@ -1,4 +1,4 @@
-﻿namespace AutoDependencyInjection.Exceptions;
+﻿namespace Auto_DependencyInjection.Exceptions;
 
 public class DuplicateServiceRegistrationException : Exception
 {

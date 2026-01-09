@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace AutoDependencyInjection.Attributes;
+namespace Auto_DependencyInjection.Attributes;
 
 /// <summary>
 /// Marks a class for automatic dependency injection registration with singleton lifetime.  

@@ -1,4 +1,4 @@
-using AutoDependencyInjection.Extensions;
+using Auto_DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace AutoDependencyInjection.Logging;
+namespace Auto_DependencyInjection.Logging;
 
-public static class AutoDependencyInjectionLogger
+public static class Auto_DependencyInjectionLogger
 {
     public static void LogRegistered(
         ILogger? logger,
